@@ -1,0 +1,40 @@
+.item1{
+    height: 100vh;
+    background-color:rgb(235, 217, 217);
+    background-image: url(images/parents.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.item2{
+    height: 250px;
+    width: 100%;
+    background-color: rosybrown;
+   
+}
+
+.item3{
+    background-color: antiquewhite;
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-image: url(images/me.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.item4{
+    text-align: center;
+    background-color: rgb(138, 105, 105);
+    width: 50%;
+    height: 100%;
+    float: right;
+    color: honeydew;
+}
+
+.item5{
+    
+    background-color: rgb(192, 159, 192);
+    text-align: center;
+    color: white;
+}
