@@ -1,7 +1,11 @@
+.container{
+    background-color:  rgb(138, 105, 105);
+}
+
 .item1{
     height: 100vh;
     background-color:rgb(235, 217, 217);
-    background-image: url(images/parents.JPG);
+    background-image: url(images/7.JPG);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -9,12 +13,9 @@
 .item2{
     height: 250px;
     width: 100%;
-    background-color: rosybrown;
-   
 }
 
 .item3{
-    background-color: antiquewhite;
     width: 50%;
     height: 100%;
     float: left;
@@ -34,7 +35,128 @@
 
 .item5{
     
-    background-color: rgb(192, 159, 192);
+    background-color:  rgb(138, 105, 105);
     text-align: center;
     color: white;
 }
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    height: 200px;
+    background-color:  rgb(138, 105, 105);
+}
+
+.item6{
+    grid-column: 1fr;
+    background-color: white;
+    background-image: url(images/1.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.item7{
+    grid-column: 1fr;
+    background-color: white;
+    background-image: url(images/2.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.item8{
+    grid-column: 1fr;
+    background-color: white;
+    background-image: url(images/3.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bigger{
+    font-family: fantasy;
+    font-size: 40px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.smaller{
+    font-family: fantasy;
+    font-size: 20px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+button{
+    border-radius: 70px;
+    float: right;
+    background-color: white;
+    width: 150px;
+    height: 30px;
+    margin-top: -40px;
+    color: rgb(138, 105, 105);
+}
+
+.top{
+    padding-top:0;
+}
+.read{
+    color: rgb(138, 105, 105);
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.grid2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    height: 400px;
+    color: rgb(138, 105, 105);
+}
+
+.item9{
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(images/4.JPG);
+}
+
+.item10{
+    background-image: url(images/5.JPG);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.item11{
+    background-image: url(images/6.JPG);
+    height: 300px;
+    width: 100%;
+    background-size: contain;
+}
+
+.part1{
+    background-color: white;
+    text-align: center;
+}
+
+.part2{
+    background-color: white;
+    text-align: center;
+}
+
+.part3{
+    background-color: white;
+    text-align: center;
+}
+
+.read-up-section{
+    background-color: white;
+    width: 100%;
+    height: 100px;
+}
+
+
+
+
+
